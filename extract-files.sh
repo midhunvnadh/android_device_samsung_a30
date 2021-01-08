@@ -21,7 +21,7 @@ if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
 fi
 set -e
 
-export DEVICE=m20lte
+export DEVICE=gta3xlwifi
 export DEVICE_COMMON=universal7904-common
 export VENDOR=samsung
 
