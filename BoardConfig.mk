@@ -3,6 +3,8 @@ DEVICE_PATH := device/samsung/gta3xlwifi
 include device/samsung/universal7904-common/BoardConfigCommon.mk
 
 # Kernel
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos7885-gta3xlwifi-noknox_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gta3xlwifi
 
