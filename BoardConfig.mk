@@ -6,6 +6,16 @@ TARGET_KERNEL_CONFIG := exynos7885-gta3xlwifi-noknox_defconfig
 # Inherit common board flags
 include device/samsung/universal7904-common/BoardConfigCommon.mk
 
+
+# Architecture
+TARGET_ARCH := arm
+TARGET_ARCH_VARIANT := armv8-a
+TARGET_CPU_ABI := armeabi-v7a
+TARGET_CPU_ABI2 := armeabi
+TARGET_CPU_VARIANT := cortex-a53
+TARGET_CPU_SMP := true
+TARGET_USES_64_BIT_BINDER := true
+
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3196059648
 BOARD_VENDORIMAGE_PARTITION_SIZE := 343932928
