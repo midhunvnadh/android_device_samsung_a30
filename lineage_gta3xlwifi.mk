@@ -7,5 +7,3 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 
 PRODUCT_NAME := lineage_gta3xlwifi
-
--include vendor/samsung/gta3xlwifi/BoardConfigVendor.mk
