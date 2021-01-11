@@ -9,7 +9,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos7885-gta3xlwifi-noknox_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gta3xlwifi
-
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
 # Architecture
 TARGET_ARCH := arm
